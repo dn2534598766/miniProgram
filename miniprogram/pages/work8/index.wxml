@@ -1,0 +1,103 @@
+<import src="./template/template.wxml"/>
+<template is="header"/>
+<view class="content">
+  <!-- <view class="col">
+    <navigator url="./intro">
+      <view class="logo">
+        <image class="pic" src="./images/1.png"/>
+      </view>
+  </navigator>
+  <text>学院简介</text>
+  <navigator url="./video">
+    <view class="logo">
+      <image class="pic" src="./images/2.png"/>
+    </view>
+  </navigator>
+  <text>介绍视频</text>
+  </view> -->
+
+
+  <!-- <view class="col">
+    <navigator url="./map">
+      <view class="logo">
+        <image class="pic" src="./images/3.png"/>
+      </view>
+  </navigator>
+  <text>地图</text>
+  <navigator url="./video">
+    <view class="logo" bindtap="phone">
+      <image class="pic" src="./images/4.png"/>
+    </view>
+  </navigator>
+  <text>联系方式</text>
+  </view>
+
+  <view class="col">
+    <navigator url="./scenery">
+      <view class="logo">
+        <image class="pic" src="./images/5.png"/>
+      </view>
+  </navigator>
+  <text>现任领导</text>
+  <navigator url="./scenery">
+    <view class="logo" bindtap="phone">
+      <image class="pic" src="./images/6.png"/>
+    </view>
+  </navigator>
+  <text>校园风光</text>
+  </view> -->
+
+  <view class="left">
+    <navigator url="./intro">
+      <view class="logo">
+        <image class="pic" src="./images/1.png"/>
+      </view>
+    </navigator>
+    <text>学院简介</text>
+  </view>
+  <view class="right">
+    <navigator url="./video">
+      <view class="logo">
+        <image class="pic" src="./images/2.png"/>
+      </view>
+    </navigator>
+    <text>介绍视频</text>
+  </view>
+</view>
+<view class="content">
+  <view class="left">
+    <navigator url="./map">
+      <view class="logo">
+        <image class="pic" src="./images/3.png"/>
+      </view>
+    </navigator>
+    <text>地图导航</text>
+  </view>
+  <view class="right">
+      <view class="logo" bindtap="phone">
+        <image class="pic" src="./images/4.png"/>
+      </view>
+    <text>联系方式</text>
+  </view>
+</view>
+
+<view class="content">
+  <view class="left">
+    <navigator url="./leader">
+      <view class="logo">
+        <image class="pic" src="./images/5.png"/>
+      </view>
+    </navigator>
+    <text>现任领导</text>
+  </view>
+  <view class="right">
+    <navigator url="./scenery">
+      <view class="logo">
+        <image class="pic" src="./images/6.png"/>
+      </view>
+    </navigator>
+    <text>校园风光</text>
+  </view>
+</view>
+
+<template is="footer"/>

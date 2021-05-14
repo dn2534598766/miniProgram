@@ -1,0 +1,58 @@
+.content{
+  margin: 50rpx;
+  text-align: center;
+}
+.nav{
+  display: flex;
+}
+.tab{
+  flex: 1;
+  font-size: 70rpx;
+  background-color: gray;
+}
+.selected{
+  background-color: red;
+}
+.list{
+  border: 1px solid black;
+  font-size: 50rpx;
+}
+.incomebg{
+  background-color: #369;
+}
+.paybg{
+  background-color: #963;
+}
+.total{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size:50rpx;
+}
+
+
+.summary{
+  height: 80rpx;
+}
+
+
+
+.whole{
+  height: 60rpx;
+  width: 100%;
+}
+.left{
+  height: 60rpx;
+  float: left;
+  width: 25%;
+  border: 1px solid red;
+  text-align: center;
+}
+.right{
+  height: 60rpx;
+  width: 73%;
+  float: left;
+  border: 1px solid red;
+  text-align: center;
+}

@@ -1,0 +1,60 @@
+<view class="row">
+  <view class="left">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/9/F2/E6/FE5B330CA2AFFF8A326AA0722C5_5C25CE4E_7564.jpg" />
+    <view class="text">
+      党委书记 蓝祥龙
+    </view>
+  </view>
+  <view class="right">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/C/2C/D3/AE452AFADFACD21CA24343929A2_F6F14491_6BC7.jpg" />
+    <view class="text">
+      党委副书记、院长 郑伟光
+    </view>
+  </view>
+</view>
+
+<view class="row">
+  <view class="left">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/1/BE/BD/0B1AE0A952981797C27E12A0358_23D8B434_76B7.jpg" />
+    <view class="text">
+      党委副书记、纪委书记 陈今来
+    </view>
+  </view>
+  <view class="right">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/0/70/BE/385CB90AFE6C2C13382937E8B06_0AEE2E36_87DD.jpg" />
+    <view class="text">
+      党委委员、副书记 苏卫东
+    </view>
+  </view>
+</view>
+
+<view class="row">
+  <view class="left">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/E/79/5B/C6A541B35E1D3A85B74029A4DF5_9619BF18_75D9.jpg" />
+    <view class="text">
+      党委委员、副院长 陈力捷
+    </view>
+  </view>
+  <view class="right">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/B/60/08/DDB8493D3480A44E794F93149AD_6CE0DE5A_8FD9.jpg" />
+    <view class="text">
+      党委委员、副院长 陈冬梅
+    </view>
+  </view>
+</view>
+
+
+<view class="row">
+  <view class="left">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/E/84/E4/25AE265D6C1B957280765B47F5B_B9C365B8_9275.jpg" />
+    <view class="text">
+      党委委员、副院长 漆军
+    </view>
+  </view>
+  <view class="right">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/6/4C/A3/509E5F2AA123EB9E6C9078A9782_A1A75BE8_8902.jpg" />
+    <view class="text">
+      正处级领导 谢臣英
+    </view>
+  </view>
+</view>

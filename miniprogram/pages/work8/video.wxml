@@ -1,0 +1,4 @@
+<import src="./template/template.wxml"/>
+<template is="header" />
+<video style="width:100%" src="http://www.gdmec.cn/__local/B/7A/A8/33FAFA2A32ECA6C48ACA9B12075_ECCF5224_8610958.mp4"/>
+<template is="footer"/>

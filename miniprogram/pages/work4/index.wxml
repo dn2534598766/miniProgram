@@ -1,0 +1,16 @@
+<!--pages/work4/index.wxml-->
+<view class="body">
+  <view class="tab">
+    <view class="sheet {{btnc?'active':''}}" bindtap="c">C</view>
+    <view class="sheet {{btnd?'active':''}}" bindtap="d">D</view>
+    <view class="sheet {{btne?'active':''}}" bindtap="e">E</view>
+    <view class="sheet {{btnf?'active':''}}" bindtap="f">F</view>
+    <view class="sheet {{btng?'active':''}}" bindtap="g">G</view>
+    <view class="sheet {{btna?'active':''}}" bindtap="a">A</view>
+    <view class="sheet {{btnb?'active':''}}" bindtap="b">B</view>
+  </view>
+  <image src="{{src}}" />
+</view>
+<view class="footer">
+  <text>hi 尤克里里!</text>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/work4/index.wxml-->
+<view class="body">
+  <view class="tab">
+    <view wx:for="{{btnarr}}" data-name="{{item.name}}" class='sheet {{item.name==currbtn?"active":""}}' wx:key="this" bindtap="clickme">{{item.name}}</view>
+  </view>
+  <image src="{{src}}" />
+</view>
+<view class="footer">
+  <text>hi 尤克里里!</text>
+</view>

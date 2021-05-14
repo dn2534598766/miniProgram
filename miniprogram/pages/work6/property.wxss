@@ -1,0 +1,8 @@
+.content{
+  margin: 40rpx;
+  background-color: #BCA;
+}
+.input {
+  background-color: #ABC;
+  margin: 0 40rpx;
+}

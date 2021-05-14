@@ -1,0 +1,3 @@
+<!--pages/work2/index.wxml-->
+<text style="color:{{color}}"ontap="bian">{{hi}}</text>
+

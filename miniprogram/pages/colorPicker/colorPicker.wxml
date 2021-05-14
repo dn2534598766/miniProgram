@@ -1,0 +1,6 @@
+<view class="view-color-slider">
+  <view style="width:160rpx;height:160rpx;border-radius:80rpx;background:{{blockColor}}"></view>
+  <slider class="slider-color-picker" style="width:500rpx;height:30rpx;border-radius:10rpx;margin-left:30rpx" activeColor="transparent" backgroundColor="transparent" bindchange="changeCorlor" block-size="24" value="{{sliderValue}}"></slider>
+  <slider class="slider-color-picker-gamut" style="width:500rpx;height:30rpx;border-radius:10rpx;margin-left:30rpx;background:{{colorGamut}}" activeColor="transparent" backgroundColor="transparent" bindchange="changeCorlorGamut" block-size="24" value="{{sliderValue}}"></slider>
+  <slider class="slider-color-picker-gray" style="width:500rpx;height:30rpx;border-radius:10rpx;margin-left:30rpx;background:{{colorGray}}" activeColor="transparent" backgroundColor="transparent" bindchange="changeCorlorGray" block-size="24" value="{{sliderValue}}"></slider>
+</view>

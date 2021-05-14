@@ -1,0 +1,13 @@
+<view class="content">
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <text>请输入标的金额(单位元)</text>
+    <view><text>\n</text></view>
+    <input class="input" type="number" name="property" placeholder="请输入金额"/>
+    <text>\n</text>
+    <button type="primary" form-type="submit">计算</button>
+    <text>\n</text>
+    <button form-type="reset">重置</button>
+    <text>\n</text>
+  </form>
+  <view>诉讼费是{{b}}元,减半收取为{{banfei}}元</view>
+</view>

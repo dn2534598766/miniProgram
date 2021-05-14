@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/work1/index",
+    "pages/work11/index",
+    "pages/work4p/index",
+    "pages/work4/index",
+    "pages/work3/index",
+    "pages/work2/index",
+    "pages/work5/index",
+    "pages/work6/divorce",
+    "pages/work6/property",
+    "pages/work7/index",
+    "pages/work8/index",
+    "pages/work8/intro",
+    "pages/work8/map",
+    "pages/work8/video",
+    "pages/work8/leader",
+    "pages/work8/scenery",
+    "pages/work9/index",
+    "pages/work10/index",
+    "pages/colorPicker/colorPicker",
+    "pages/work12/index",
+    "pages/work13/index",
+    "pages/work14/index",
+    "pages/work15/index"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/work6/property",
+        "text": "财产",
+        "iconPath": "pages/work6/images/m2.png",
+        "selectedIconPath": "pages/work6/images/m1.png"
+      },
+      {
+        "pagePath": "pages/work6/divorce",
+        "text": "离婚",
+        "iconPath": "pages/work6/images/n2.png",
+        "selectedIconPath": "pages/work6/images/n1.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信公众平台开发",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

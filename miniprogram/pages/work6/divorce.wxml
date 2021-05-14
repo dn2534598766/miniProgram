@@ -1,0 +1,19 @@
+<view>
+  <switch bindchange="switch">是否涉及财产</switch>
+  <view wx:if="{{condition}}">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <text>请输入标的</text>
+      <view><text>\n</text></view>
+      <input class="input" type="number" name="property" placeholder="输入标的"/>
+      <text>\n</text>
+      <button type="primary" form-type="submit">计算</button>
+      <text>\n</text>
+      <button form-type="reset">重置</button>
+      <text>\n</text>
+      <view>诉讼费{{fei}}元,减半收取{{banfei}}元</view>
+    </form>
+  </view>
+  <view wx:else>
+    诉讼费300元，减半收取150元
+  </view>
+</view>

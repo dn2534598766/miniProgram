@@ -1,0 +1,6 @@
+<map name="map" longitude="113.4480" latitude="23.3860"
+ style="width:100%;height:100vh;"
+ markers="{{markers}}"></map>
+<map name="map" longitude="113.4480" latitude="23.3880"
+ style="width:100%;height:100vh;"
+ markers="{{markers}}"></map>

@@ -1,0 +1,2 @@
+<!--haha.wxml-->
+<text style="color:{{color}}"ontap="bian">{{hi}}</text>

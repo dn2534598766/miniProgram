@@ -1,0 +1,11 @@
+.intro{
+  margin: 20rpx;
+  color: deeppink;
+}
+.menu{
+  display: flex;
+}
+.canvas{
+  width: 70%;
+  height: 40vh;
+}

@@ -1,0 +1,16 @@
+<view hidden="{{hidden}}">
+  <view class="title">
+    <view>请签名留言</view>
+  </view>
+  <canvas class="canvas" bindtouchmove="move" canvas-id="myCanvas"/>
+  <view class="btns">
+    <button type="primary" size="mini" bindtap="picker">修改颜色</button>
+    <button type="primary" size="mini" bindtap="clear">清除留言</button>
+    <button type="primary" size="mini" bindtap="save">留言上墙</button>
+    <button type="primary" size="mini" bindtap="reload">查看留言</button>
+  </view>
+</view>
+<view hidden="{{!hidden}}">
+  <button type="primary" bindtap="sign">我要留言</button>
+  <image src="{{picpath}}" bindtap="preview" class="img"/>
+</view>

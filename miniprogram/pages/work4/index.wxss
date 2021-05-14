@@ -1,0 +1,29 @@
+/* pages/work4/index.wxss */
+.body{
+  margin: 25rpx;
+}
+.tab{
+  display: flex;
+}
+.sheet{
+  width: 50%;
+  text-align: center;
+  background: linear-gradient(#bbb,#ddd);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  border-radius: 15rpx;
+  font-size: 40rpx;
+}
+.active{
+  background:#369
+}
+.footer{
+  background: lightgray;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40rpx;
+  font-family: '楷体';
+}
+image{
+  width: 99%;
+}

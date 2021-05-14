@@ -1,0 +1,15 @@
+.title{
+  text-align: center;
+}
+.btns{
+  display: flex;
+}
+.canvas{
+  width: 100%;
+  border: 1px solid black;
+  height: 200px;
+}
+.img{
+  width: 100%;
+  height: 100vh;
+}

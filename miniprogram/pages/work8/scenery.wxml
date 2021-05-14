@@ -1,0 +1,60 @@
+<view class="row">
+  <view class="left">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/D/01/54/C23962AABB85071DF8935DA5D64_9D1AF7B9_1D464.jpg?e=.jpg" />
+    <view class="text">
+      校园会1
+    </view>
+  </view>
+  <view class="right">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/9/A9/57/37FCB65A5D90CF59B2A0CDB15CA_1DC00976_1F070.jpg?e=.jpg" />
+    <view class="text">
+      校运会2
+    </view>
+  </view>
+</view>
+
+<view class="row">
+  <view class="left">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/1/0A/7B/EEDA275AB8A4EEB017A172DA25D_3A9FD7CE_1397D.jpg?e=.jpg" />
+    <view class="text">
+      篮球比赛
+    </view>
+  </view>
+  <view class="right">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/5/01/E7/0C421A0298026DAC72E499114E5_D789079A_6555.jpg?e=.jpg" />
+    <view class="text">
+      篮球场
+    </view>
+  </view>
+</view>
+
+<view class="row">
+  <view class="left">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/A/CC/DA/247BE7DE9E766248F390D89D448_9A21390D_6D53.jpg?e=.jpg" />
+    <view class="text">
+      电子信息实训楼
+    </view>
+  </view>
+  <view class="right">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/D/4A/01/035515D9C5C5797101B55FB9C0F_2EC8305C_1729C.jpg?e=.jpg" />
+    <view class="text">
+      机电工程实训楼
+    </view>
+  </view>
+</view>
+
+<view class="row">
+  <view class="left">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/4/A8/31/6B42D0762DB83A4FB15E1D5638B_E44304DE_219CD.gif?e=.gif" />
+    <view class="text">
+      教学实训中心
+    </view>
+  </view>
+  <view class="right">
+    <image class="img" src="https://www.gdmec.edu.cn/__local/1/95/94/77C6163461656E3A2C374D1CF72_195698A5_73897.jpg?e=.jpg" />
+    <view class="text">
+      金工实训中心
+    </view>
+  </view>
+</view>
+

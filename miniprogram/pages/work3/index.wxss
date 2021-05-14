@@ -1,0 +1,16 @@
+/* pages/work3/index.wxss */
+text{
+  margin:40rpx;
+}
+input{
+  margin-top: 20rpx;
+  border-bottom:1px solid #000;
+  width:400rpx;
+  margin:40rpx;
+}
+button{
+  background:#225588;
+  color:#fff;
+  letter-spacing: 40rpx;
+  width: 400rpx;
+}

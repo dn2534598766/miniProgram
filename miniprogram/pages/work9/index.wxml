@@ -1,0 +1,46 @@
+<view class="content">
+  <view class="nav">
+    <view bindtap="click" class='tab {{isincome?"selected":""}}' data-name='income'>
+      <text>收入</text>
+    </view>
+    <view bindtap="click" class='tab  {{isincome?"":"selected"}}' data-name='pay' >
+      <text>支出</text>
+    </view>
+  </view>
+  <view wx:if="{{isincome}}">
+    <view class="list incomebg" wx:for='{{incomelist}}' wx:key='this'>{{item}}</view>
+  </view>
+  <view wx:else>
+    <view class="list paybg" wx:for='{{paylist}}' wx:key='this'>{{item}}</view>
+  </view>
+
+  <button type="primary" bindtap="add">增加</button>
+  <input value="{{input}}" wx:if="{{isinput}}"  bindconfirm="input" type="text"  placeholder='{{isincome?"收入":"支出"}}金额'/>
+</view>
+
+<view class="section">
+
+  <picker mode="date" value="{{date}}" start="2017-09-01" end="2021-04-05" bindchange="bindDateChange">
+    <view class="picker">
+      当前选择: {{date}}
+    </view>
+  </picker>
+</view>
+
+
+<navigator url="/pages/work8/index">work8</navigator>
+
+<view class="whole" wx:for="{{obj2}}" wx:for-index="key">
+
+<view  class="left">
+  <view class="summary">{{key}}</view>
+</view>
+<view class="right">
+  <view class="summary">收入:{{item[0]}} 支出:{{item[1]}}</view>
+</view>
+</view>
+
+
+<view class="total">
+  余额:{{incometotal-paytotal}}
+</view>

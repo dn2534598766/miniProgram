@@ -1,0 +1,16 @@
+<view class="content">
+  <view class="search">
+    <text>城市:</text>
+    <input type="text" placeholder="城市" bindinput="input" />
+    <icon type="search" bindtap="search"></icon>
+  </view>
+  <button type="primary" bindtap="here">查询当前位置天气</button>
+  <view>{{city}}今天天气</view>
+  <view>
+    <view>气温:{{temp}}</view>
+    <view>风向:{{windDir}}</view>
+    <view>风力:{{windScale}}</view>
+    <view>湿度:{{humidity}}</view>
+    <view>天气状况:{{text}}</view>
+  </view>
+</view>

@@ -1,0 +1,79 @@
+<!-- <view class="result">
+  <view class="result-num">{{num}}</view>
+  <view class="result-top">{{op}}</view>
+</view>
+<view class="btns">
+  <view>
+    <view hover-class="bg" bindtap="resetBtn">C</view>
+    <view hover-class="bg" bindtap="delBtn">DEL</view>
+    <view hover-class="bg" bindtap="opBtn" data-val="%">%</view>
+    <view hover-class="bg" bindtap="opBtn" data-val="/">+</view>
+  </view>
+  <view>
+    <view hover-class="bg" bindtap="numBtn" data-val="7">7</view>
+    <view hover-class="bg" bindtap="numBtn" data-val="8">8</view>
+    <view hover-class="bg" bindtap="numBtn" data-val="9">9</view>
+    <view hover-class="bg" bindtap="opBtn" data-val="*">×</view>
+  </view>
+  <view>
+    <view hover-class="bg" bindtap="numBtn" data-val="4">4</view>
+    <view hover-class="bg" bindtap="numBtn" data-val="5">5</view>
+    <view hover-class="bg" bindtap="numBtn" data-val="6">6</view>
+    <view hover-class="bg" bindtap="opBtn" data-val="-">-</view>
+  </view>
+  <view>
+    <view hover-class="bg" bindtap="numBtn" data-val="1">1</view>
+    <view hover-class="bg" bindtap="numBtn" data-val="2">2</view>
+    <view hover-class="bg" bindtap="numBtn" data-val="3">3</view>
+    <view hover-class="bg" bindtap="opBtn" data-val="+">+</view>
+  </view>
+  <view>
+    <view hover-class="bg" bindtap="numBtn" data-val="0">0</view>
+    <view hover-class="bg" bindtap="dotBtn">.</view>
+    <view hover-class="bg" bindtap="opBtn" data-val="=">=</view>
+  </view>
+</view> -->
+
+<view  class="content">
+  <view class="screen">
+    <view>{{num}}</view>
+    <view>　{{op}}</view>
+  </view>
+  <view class="keyborad">
+    <view class="btnrow">
+      <view class="btn blue" bindtap="clear">C</view>
+      <view class="btn blue" bindtap="delete"> {{'<-'}}</view>
+      <view class="btn blue" bindtap="opbtn" data-val="%">%</view>
+      <view class="btn blue" bindtap="opbtn" data-val="+">+</view>
+    </view>
+    <view class="btnrow">
+      <view class="btn blue" bindtap="opbtn" data-val="平方">平方</view>
+      <view class="btn blue" bindtap="opbtn" data-val="开方">开方</view>
+      <view class="btn blue" bindtap="opbtn" data-val="sin">sin</view>
+      <view class="btn blue" bindtap="opbtn" data-val="cos">cos</view>
+    </view>
+    <view class="btnrow">
+      <view class="btn orange" bindtap="numbtn" data-val="7">7</view>
+      <view class="btn orange" bindtap="numbtn" data-val="8">8</view>
+      <view class="btn orange" bindtap="numbtn" data-val="9">9</view>
+      <view class="btn blue" bindtap="opbtn" data-val="-">-</view>
+    </view>
+    <view class="btnrow">
+      <view class="btn orange" bindtap="numbtn" data-val="4">4</view>
+      <view class="btn orange" bindtap="numbtn" data-val="5">5</view>
+      <view class="btn orange" bindtap="numbtn" data-val="6">6</view>
+      <view class="btn blue"bindtap="opbtn" data-val="*">*</view>
+    </view>
+    </view>
+  <view class="btnrow">
+    <view class="btn orange" bindtap="numbtn" data-val="1">1</view>
+    <view class="btn orange"bindtap="numbtn" data-val="2">2</view>
+    <view class="btn orange"bindtap="numbtn" data-val="3">3</view>
+    <view class="btn blue"bindtap="opbtn" data-val="/">/</view>
+  </view>
+  <view class="btnrow">
+    <view class="btn orange zero" bindtap="numbtn" data-val="0">0</view>
+    <view class="btn orange" bindtap="dotbtn" data-val=".">.</view>
+    <view class="btn blue"bindtap="opbtn" data-val="=">=</view>
+  </view>
+</view>

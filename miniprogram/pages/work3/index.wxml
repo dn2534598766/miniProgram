@@ -1,0 +1,13 @@
+<!--pages/work3/index.wxml-->
+<form bindsubmit="compare">
+  <view>
+    <text>请输入数字1:</text>
+    <input type="number"name='num1'/>
+  </view>
+  <view>
+    <text>请输入数字2:</text>
+    <input type="number" name='num2'/>
+  </view>
+  <button form-type="submit">比较</button>
+</form>
+<text style="color:{{color}}">比较结果：{{result}}</text>

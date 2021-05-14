@@ -1,0 +1,45 @@
+.row{
+  width: 100%;
+  height: 300rpx;
+  /* background-color: coral; */
+  /* display: flex; */
+  margin: 40rpx;
+  margin-bottom: 120rpx;
+}
+.left{
+  width: 30%;
+  height: 300rpx;
+  float: left;
+  margin-left:60rpx ;
+}
+.right{
+  width: 30%;
+  height: 300rpx;
+  float: right;
+  margin-right: 100rpx;
+}
+.img{
+  height: 250rpx;
+  width: 200rpx;
+}
+.text{
+  height: 50rpx;
+  
+}
+
+
+
+/* .left{
+  float: left;
+}
+.right{
+  float: right;
+  margin-right:240rpx ;
+}
+.img{
+  height: 250rpx;
+  width: 200rpx;
+}
+.text{
+  width: 50rpx;
+} */

@@ -1,0 +1,34 @@
+<view class="body">
+  <form bindsubmit="submit">
+    <view>
+      <text>学号: </text>
+      <input name='sno' value="{{sno}}"/>
+    </view>
+    <view>
+      <text>姓名: </text>
+      <input name='name' value="{{name}}"/>
+    </view>
+    <view>
+      <text>性别: </text>
+      <radio-group name='gender'>
+        <label><radio value="1" checked="{{control}}">男</radio></label>
+        <label><radio value="0" checked="{{control2}}">女</radio></label>
+      </radio-group>
+    </view>
+    <view>
+      <text>学到技能: </text>
+      <checkbox-group name="skills">
+        <label wx:for="{{skills}}"><checkbox value="{{item.name}}">{{item.name}} {{item.count}}</checkbox></label>
+      </checkbox-group>
+    </view>
+    <view>
+      <text>教学满意度:{{satisfaction}}</text>
+      <slider name='satisfaction' min="0" max="5" value="{{satisfaction}}"></slider>
+    </view>
+    <view>
+      <text>您的意见和建议</text>
+      <textarea name="opinion" cols="30" row="10">{{opinion}}</textarea>
+    </view>
+    <button type="primary" form-type="submit">提交</button>
+  </form>
+</view>

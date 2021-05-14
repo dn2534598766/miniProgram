@@ -1,0 +1,23 @@
+<template name="header">
+  <swiper autoplay="true" indicator-dots="true">
+    <swiper-item wx:for="{{mdl.imgs}}">
+      <image class="swiperpic" src='{{item}}' />
+    </swiper-item>
+  </swiper>
+</template>
+<template name="footer">
+  <button type="primary" open-type="contact">联系客服</button>
+</template>
+
+<wxs module="mdl">
+imgs=[
+  './images/banner1.jpg',
+  './images/banner2.jpg',
+  './images/banner3.jpg',
+  './images/banner4.jpg',
+  './images/banner5.jpg',
+]
+module.exports={
+  imgs:imgs
+}
+</wxs>

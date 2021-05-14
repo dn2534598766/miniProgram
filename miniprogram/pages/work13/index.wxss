@@ -1,0 +1,16 @@
+.body{
+  margin:20rpx;
+}
+input{
+  border-bottom: 1px solid #abc;
+}
+label{
+  display: block;
+}
+textarea{
+  border:1px solid #def;
+}
+.count{
+  margin-left: 20rpx;
+  padding-top: 20rpx;
+}
