@@ -8,7 +8,7 @@ var _animation;
 var _animationIndex
 const _ANIMATION_TIME = 500;
 Page({
-  data:{
+  data:{ 
     item:0,
     tab:0,
     state:'paused',
