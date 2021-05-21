@@ -22,7 +22,8 @@
     "pages/work12/index",
     "pages/work13/index",
     "pages/work14/index",
-    "pages/work15/index"
+    "pages/work15/index",
+    "pages/work16/index"
   ],
   "tabBar": {
     "list": [

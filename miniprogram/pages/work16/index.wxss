@@ -1,0 +1,18 @@
+swiper{
+  width: 100%;
+  height: 100vh;
+}
+image{
+  width: 99%;
+  height: 99%;
+}
+text{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 80pt;
+  color: white;
+}
+.color{
+  border: 1px solid red;
+}

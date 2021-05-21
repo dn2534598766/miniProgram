@@ -1,0 +1,6 @@
+<swiper circular="true" bindchange="change" current="{{swipperCurrent}}">
+  <swiper-item wx:for="{{imglist}}" wx:key="unique">
+    <image class="{{control?'color':''}}" src="{{item.fileid}}" bindtap="vote" bindlongtap="upload" data-fileid="{{item.fileid}}" data-id="{{item._id}}" />
+    <!-- <text>{{item.count}}</text> -->
+  </swiper-item>
+</swiper>

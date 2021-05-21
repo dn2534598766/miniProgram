@@ -1,16 +1,19 @@
 // 云函数入口文件
 const cloud = require('wx-server-sdk')
 
-cloud.init()
+cloud.init({
+  "env":"xly-psniq"
+})
 
 // 云函数入口函数
 exports.main = async (event, context) => {
   const wxContext = cloud.getWXContext()
+  const db = cloud.database()
+  const collectionVote = db.collection('vote')
+  const res = await collectionVote.get()
+  console.log(res)
 
   return {
-    event,
-    openid: wxContext.OPENID,
-    appid: wxContext.APPID,
-    unionid: wxContext.UNIONID,
+    res
   }
 }
