@@ -38,7 +38,7 @@ Page({
   async vote(e){
     let that=this
     console.log(e)
-    if(e.currentTarget.dataset.id==this.data.current2){
+    if(e.currentTarget.dataset.num==this.data.current2){
       if(this.data.voted){
         wx.showModal({
         title: '提示',
@@ -132,7 +132,7 @@ Page({
     wx.showToast({
       title: '投票成功',
     })
-    let current2=e.currentTarget.dataset.id
+    let current2=this.data.current
 
     let imglist = this.data.imglist
     let voted=true
@@ -157,6 +157,16 @@ Page({
   },
   change(e){
     console.log(e)
+    console.log(this.data.current2)
+    if(e.detail.current+1==this.data.current2){
+      this.setData({
+        control:true
+      })
+    }else{
+      this.setData({
+        control:false
+      })
+    }
     this.setData({
       swipperCurrent:e.detail.current
     })
