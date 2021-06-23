@@ -23,7 +23,13 @@
     "pages/work13/index",
     "pages/work14/index",
     "pages/work15/index",
-    "pages/work16/index"
+    "pages/work16/index",
+    "pages/work17/register",
+    "pages/work17/rank",
+    "pages/work17/profile",
+    "pages/work18/index",
+    "pages/work19/index",
+    "pages/work20/index"
   ],
   "tabBar": {
     "list": [

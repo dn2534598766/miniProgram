@@ -1,0 +1,11 @@
+<view>无人机组</view>
+<view>崔宇、崔大宇、崔小宇</view>
+<view>activityId:{{activityId}}</view>
+<view>完成情况{{memberCount}}/{{roomLimit}}</view>
+<view>
+分享来自微信群：
+  <open-data type="groupName" open-gid="{{groupId}}" default-text="未知群" />
+</view>
+
+<button type="primary" open-type="share">转发动态消息</button>
+<button type="primary" bindtap="close">结束动态消息</button>

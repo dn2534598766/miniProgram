@@ -16,3 +16,7 @@
 <navigator url="/pages/work14/index">work14 云投票</navigator>
 <navigator url="/pages/work15/index">work15 听红歌学党史</navigator>
 <navigator url="/pages/work16/index">work16 图片投票云函数版</navigator>
+<navigator url="/pages/work17/register">work17 分专业方向绑定学号和选择方向页面</navigator>
+<navigator url="/pages/work18/index">work18 活动预约通知</navigator>
+<navigator url="/pages/work19/index">work19 健康打卡接力 动态消息</navigator>
+<navigator url="/pages/work20/index">work20 云调用</navigator>

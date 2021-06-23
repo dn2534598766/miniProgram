@@ -1,0 +1,5 @@
+<input type="text" placeholder="昵称" id='thing1' bindinput="input" />
+<input type="text" placeholder="活动名称" id='thing2' bindinput="input"/>
+<input type="text" placeholder="活动说明" id='thing4'bindinput="input"/>
+<input type="text" placeholder="活动日期" id='date3' bindinput="input"/>
+<button type="primary" bindtap="post">提交</button>

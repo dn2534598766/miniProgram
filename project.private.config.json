@@ -51,6 +51,43 @@
         {
           "name": "pages/work16/index",
           "pathName": "pages/work16/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/work17/register",
+          "pathName": "pages/work17/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/work17/rank",
+          "pathName": "pages/work17/rank",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/work17/profile",
+          "pathName": "pages/work17/profile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/work18/index",
+          "pathName": "pages/work18/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/work19/index",
+          "pathName": "pages/work19/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/work20/index",
+          "pathName": "pages/work20/index",
+          "query": "",
           "scene": null
         }
       ]

@@ -1,0 +1,16 @@
+<view style="display:flex">
+<button type="primary" size="mini" bindtap="getWeRun">微信步数</button>
+<button type="primary" size="mini" bindtap="getUserProfile">用户信息</button>
+</view>
+<view wx:if="{{userProfile}}">
+  <view>用户信息</view>
+  <view wx:for="{{userProfile}}" wx:key="unique" wx:for-index="key">
+    {{key}}:{{item}}
+  </view>
+  <view wx:if="{{steps}}">
+    <view>微信运动步数</view>
+    <view wx:for="{{steps}}" wx:key='unique'>
+      {{item.timestamp}}-{{item.step}}
+    </view>
+  </view>
+</view>
